@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.venv/
+backend/emergency.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+data/model.pkl
+dashboard/node_modules/
+dashboard/dist/
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.metadata

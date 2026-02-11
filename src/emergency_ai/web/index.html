@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency AI Control Center</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero glass">
+        <div>
+          <p class="kicker">AI DISPATCH</p>
+          <h1>Emergency Response &amp; Location Intelligence</h1>
+          <p class="subtitle">
+            Responsive command interface for rapid triage, risk-awareness, and smart unit dispatch.
+          </p>
+        </div>
+        <div class="status-pill">System online</div>
+      </header>
+
+      <main class="grid-layout">
+        <section class="panel glass">
+          <h2>Incident Input</h2>
+          <form id="incident-form" class="form-grid">
+            <label>
+              Incident description
+              <textarea
+                id="incident-text"
+                rows="5"
+                placeholder="Example: Explosion and heavy smoke, multiple people trapped on level 2."
+                required
+              ></textarea>
+            </label>
+
+            <div class="row-2">
+              <label>
+                Latitude
+                <input id="latitude" type="number" step="0.0001" value="40.733" required />
+              </label>
+              <label>
+                Longitude
+                <input id="longitude" type="number" step="0.0001" value="-73.993" required />
+              </label>
+            </div>
+
+            <button id="submit-btn" type="submit">Generate AI Response Plan</button>
+          </form>
+        </section>
+
+        <section class="panel glass">
+          <h2>Triage Overview</h2>
+          <div id="triage-card" class="metrics empty-state">Submit an incident to generate analysis.</div>
+        </section>
+
+        <section class="panel glass">
+          <h2>Recommended Units</h2>
+          <ul id="recommendations" class="card-list empty-state">
+            <li>No recommendations yet.</li>
+          </ul>
+        </section>
+
+        <section class="panel glass">
+          <h2>Operational Actions</h2>
+          <ol id="actions" class="card-list empty-state">
+            <li>No actions yet.</li>
+          </ol>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
