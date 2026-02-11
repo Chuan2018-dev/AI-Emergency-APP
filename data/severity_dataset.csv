@@ -1,0 +1,21 @@
+emergency_type,description,hour_of_day,risk_score,severity
+Accident,Two vehicles collided with injured passengers and smoke,18,0.9,Critical
+Medical,Person unconscious and not breathing in classroom,11,0.8,Critical
+Fire,House fire spreading quickly with children trapped,22,0.95,Critical
+Crime,Armed robbery in progress near market,20,0.9,Critical
+Other,Minor power outage reported in one room,9,0.3,Low
+Medical,Dizziness and mild chest discomfort,14,0.4,Medium
+Accident,Motorcycle skid with bruises only,16,0.5,Medium
+Fire,Small kitchen fire controlled with extinguisher,13,0.45,Medium
+Crime,Suspicious person loitering without violence,10,0.35,Low
+Other,Flood water rising rapidly and families stranded,3,0.85,Critical
+Medical,Minor cut from lab equipment no heavy bleeding,15,0.3,Low
+Accident,Bicycle crash with possible fracture and head injury,7,0.75,Critical
+Fire,Smoke smell with no visible flames yet,6,0.55,Medium
+Crime,Phone snatching incident suspect fled,17,0.5,Medium
+Other,Tree branch blocking lane and minor traffic issue,8,0.25,Low
+Accident,Bus collision multiple victims trapped,19,0.95,Critical
+Medical,High fever and dehydration needs transport,12,0.45,Medium
+Fire,Warehouse fire with explosions heard,23,0.98,Critical
+Crime,Fight escalating with weapons seen,21,0.92,Critical
+Other,Loud noise complaint no injuries,1,0.2,Low
